@@ -1,0 +1,73 @@
+#abc {
+	width: 100%;
+	height: 85vh;
+	background-color: #fff;
+	position: relative;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#abc .service_content{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 75px;
+}
+#abc h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+}
+#abc  p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+#abc .main{
+    width: 63%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+#abc .contentt{
+	display: flex;
+   flex-wrap: wrap;
+   margin-right: auto;
+   margin-left: auto;
+}
+#abc .contentt  h5{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+#abc .main p{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#abc img{
+		width: 18rem;
+	} 
+	#abc iframe{
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	#abc img{
+		width: 15rem;
+	}
+	#abc .contentt h5{
+		margin-top: 10px;
+	}
+}

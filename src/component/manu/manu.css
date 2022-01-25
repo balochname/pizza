@@ -1,0 +1,119 @@
+#manu{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../img/menubg.jpeg);
+	background-size: cover;
+}
+#manu h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+	padding-top: 6%;
+}
+#manu p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 5rem;
+
+}
+#manu .main{
+	width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+   justify-content: center;
+    display: flex;
+	flex-wrap: wrap;
+	
+}
+#manu .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	margin:1.5rem;
+	width: 38px;
+	height: 11rem !important;
+	margin-top: 4rem;
+}
+#manu .box-container .box{
+
+	text-align: center;
+	padding: 1.5rem 1.5rem 0rem 1.5rem;
+	border-radius: 8.5px;
+	background-color: #ffd5c4;
+	
+	flex:1;
+}
+#manu .box-container .box img{
+	 width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-top: -6rem;
+  object-fit: cover;
+  
+}
+#manu .box-container .box h3{
+	color: #000;
+	text-align: center;
+	font-weight: 600;
+	font-size:  medium;
+	font-family: sans-serif;
+}
+#manu .box-container .box p{
+	color: #000;
+	text-align: center;
+	font-size: 9px;
+	font-weight: 500;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+#manu .box-container .box  h4{
+	color: #000;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+}
+#manu .mbtn{
+	background: #ff6221;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 70%;
+    margin-bottom: 2rem;
+    border: none;
+    margin-top: 20px;
+    width: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#manu{
+		height: 100%;
+	}
+	#manu .main{
+		
+		width: 100%;
+	}
+	#manu .box-container{
+		margin-top: 4rem;
+	}
+}
+@media only screen and (max-width: 425px) {
+	#manu{
+		height: 100%;
+	}
+	#manu .main{
+		width: fit-content;
+	}
+	#manu .box-container{
+		margin-top: 5rem;
+	}
+}

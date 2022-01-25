@@ -1,0 +1,82 @@
+
+#service{
+
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ffd5c4;
+	background-attachment: fixed;
+}
+#service .service_content{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 50px;
+}
+
+#service h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+	
+
+}
+#service p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+#service .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+#service .main{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#service .card{
+	
+	justify-content: center;
+	align-items: center;
+	margin:1.5rem;
+	width: 156px;
+	height: 165px;
+	background-color:#fff;
+	border-radius: 12.5px;
+}
+#service .card h5{
+	color: #ff6221;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:600;
+	letter-spacing: normal;
+	margin-top: 17px; 
+}
+@media only screen and (max-width: 768px) {
+	#service {
+		height: 100vh;
+	}
+	#service .main{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	#service{
+		height: 100%;
+	}
+	#service .main{
+		width: min-content;
+	}
+}

@@ -1,0 +1,44 @@
+ [
+    {
+        "id": 162,
+        "name": "Wunsch-Pizza",
+        "price": 400,
+        "path": "../component/img/pizza2.jpg",
+        "dis":"mit einer Sauce nach Wahl aus: Classic 24cm, Medium 29cm oder Jumbo 34cm.c"
+    },
+    {
+        "id": 163,
+        "name": "Chicken-Pizza",
+        "price": 430,
+        "path": "../component/img/pizza2.jpg",
+        "dis":"abc efg hig klmn Medium 29cm oder Jumbo 34cm.c"
+    },
+    {
+        "id": 161,
+        "name": "Beef-Pizza",
+        "price": 500,
+        "path": "../component/img/pizza2.jpg",
+        "dis":"mit einer Sauce nach Wahl aus: Classic 24cm" 
+    },
+    {
+        "id": 160,
+        "name": "Veg-Pizza",
+        "price": 350,
+        "path": "./component/img/pizza2.jpg",
+        "dis":"mit einer Sauce nach Wahl aus: Classic 24cm"
+    },
+    {
+        "id": 445,
+        "name": "Arbian-Pizza",
+        "price": 550,
+        "path": "./component/img/pizza2.jpg",
+        "dis":"Try Our New Range Of Smokey Pizza"
+    },
+    {
+        "id": 445,
+        "name": "Arbian-Pizza",
+        "price": 550,
+        "path": "./component/img/pizza2.jpg",
+        "dis":"Try Our New Range Of Smokey Pizza"
+    }
+]   
